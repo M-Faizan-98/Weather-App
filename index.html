@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Favorite Movies</title>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button class="search-btn">
+          <img
+            src="https://i.postimg.cc/gkw0jnRd/search.png"
+            class="search-icon"
+            alt=""
+          />
+        </button>
+      </div>
+      <div class="error"><p>Invalid city name</p></div>
+      <div class="weather">
+        <img
+          src="https://i.postimg.cc/pTZmf4XH/clouds.png"
+          class="weather-icon"
+          alt=""
+        />
+        <h1 class="temp">22°c</h1>
+        <h2 class="city">New York</h2>
+        <div class="details">
+          <div class="col">
+            <img
+              src="https://i.postimg.cc/1tC95Q3f/humidity.png"
+              class="humidity-icon"
+              alt=""
+            />
+            <div>
+              <p class="humidity">50%</p>
+              <p class="">Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="https://i.postimg.cc/pr3RzJ8v/wind.png"
+              class="wind-icon"
+              alt=""
+            />
+            <div>
+              <p class="wind">50Km/h</p>
+              <p class="">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
